@@ -13,8 +13,8 @@
 
     <div class="winClebrastion">
         <div class="clebrastion">
-            <img class="vectory" src="images\Vector.png">
-            <img class="group" src="images\Group 5.png">
+            <img class="vectory" src="Vector.png">
+            <img class="group" src="Group 5.png">
         </div>
     </div>
 
@@ -26,8 +26,18 @@
 
     <button class="playagain">PLAY  AGAIN</button>
 
-    <script src="app.js"></script>
-    <script src="app1.js"></script>
+    <script> let playagain = document.querySelector(".playagain");
+
+        playagain.addEventListener("click", () => {
+        
+        //  console.log("Hiiii")
+        
+            window.location.reload();
+            window.location.href = 'index.html';
+        
+            
+        });
+        </script>
 </body>
 
 </html>
